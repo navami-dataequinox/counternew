@@ -17,7 +17,7 @@ function Counter() {
       <Stack
         direction="row"
         justifyContent="center"
-        sx={{ marginTop: "90px", fontSize: "45px" }}
+        sx={{ mt: 20, fontSize: "65px" }}
       >
         {counter}
       </Stack>
@@ -25,7 +25,7 @@ function Counter() {
         direction="row"
         spacing={2}
         justifyContent="center"
-        sx={{ marginTop: "80px" }}
+        sx={{ mt: 10 }}
       >
         <Button onClick={handleIncrement} variant="contained">
           Increment
