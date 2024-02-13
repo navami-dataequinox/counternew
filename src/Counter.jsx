@@ -1,7 +1,6 @@
 import { Button, Stack } from "@mui/material";
 import React, { useState } from "react";
 
-
 function Counter() {
   const [counter, setCounter] = useState(0);
 
